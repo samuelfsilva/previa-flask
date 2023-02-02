@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+body main {
+  max-width: 550px;
+  padding: 15px;
+}
+main h3 {
+  font-size: 20px;
+}
+#createDCPButton,
+#createSWIButton {
+  width: 150px;
+  background-color: #7b5ec6;
+  border-color: #5e549b;
+}
+#newDCPButton a {
+  background-color: #624b9e;
+  border-color: #5e549b;
+  position: relative;
+  left: 140px;
+}
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+}
+#control-itens {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+}

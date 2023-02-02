@@ -8,10 +8,6 @@ Bootstrap(app)
 def index():
     return render_template("index.html")
 
-@app.route("/criar_dcp")
-def criar_dcp():
-    return render_template("criar_dcp.html")
-
 @app.route("/criar_swi")
 def criar_swi():
     return render_template("criar_swi.html")
